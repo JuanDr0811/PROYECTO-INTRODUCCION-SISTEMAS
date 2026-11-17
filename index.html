@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motos - Kawasaki</title>
+    <link rel="icon" type="image/x-icon" href="fotos/logos/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="js/funcion.js" defer></script>
+   
+</head>
+
+<body>
+    <header>
+        <div id="titulo">
+            <img src="fotos/logos/logo.png" alt="logo">
+            <h1>Kawasaki</h1>
+        </div>
+        
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" class="botonActivo">Inicio</a></li>
+                <li><a href="../motos/motos.html" class="boton">Motos</a></li>
+                <li><a href="../historia/historia.html" class="boton">Historia</a></li>
+                <li id="contacto"><a href="../contacto/contactanos.html" class="boton">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <hr>
+    <main>
+        <section>
+            <h2>Bienvenido al mundo Kawasaki</h2>
+            <div class="imagen">
+                 <img src="fotos/imagen1.jpg" alt="Kawasaki Ninja">
+            </div>
+            <p>Pasión por la velocidad desde 1896.</p>
+        </section>
+        <div>
+            <section>
+                <h2>Nuestra historia</h2>
+                <p>Kawasaki fue fundada en 1896 y hoy es una de las marcas de motos más reconocidas del mundo, famosa por sus Ninja y su color verde.</p>
+            </section>
+            <section class="datos">
+                <div><h3>1896</h3><p>Año de fundación</p></div>
+                <div><h3>+300</h3><p>km/h de la Ninja H2</p></div>
+                <div><h3>6</h3><p>Títulos mundiales de WSBK con Rea</p></div>
+            </section>
+        </div>
+        <a href="../motos/motos.html" class="botonR">Ver motos</a>
+    </main>
+    
+
+    <footer>
+        <h2 id="resultado"></h2>
+        <form>
+            <label for="nombre"></label>
+            <div class="container">
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+                <button type="button" 
+                onclick="mostrarNombre()">
+                Revelar Mensaje</button>
+            </div>
+        </form>
+        <p>Proyecto Kawasaki | Hecho por Juan Rivera, Juan Cardozo, Andrey Castro</p>
+        <br>
+        <a href="../contacto/contactanos.html" class="botonR">Contactanos</a>
+        <br>
+        <br>
+    </footer>
+    
+</body>
+</html> 

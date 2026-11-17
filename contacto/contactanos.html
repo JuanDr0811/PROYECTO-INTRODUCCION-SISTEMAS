@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawasaki - Contacto</title>
+    <link rel="icon" type="image/x-icon" href="../fotos/logos/favicon.ico" />
+    <link rel="stylesheet" href="../css/contacto.css"/>
+    <script src="../js/funcion.js" defer></script>
+</head>
+<body>
+
+    
+    <header>
+        <div id="titulo">
+            <img src="../fotos/logos/logo.png" alt="logo">
+            <h1>Kawasaki</h1>
+        </div>
+        
+        <nav id="menu">
+            <ul class="ul">
+                <li><a href="../index.html" class="boton">Inicio</a></li>
+                <li><a href="../motos/motos.html" class="boton">Motos</a></li>
+                <li><a href="../historia/historia.html" class="boton">Historia</a></li>
+                <li id="contacto"><a href="../contacto/contactanos.html" class="botonActivo">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <hr>
+
+    <main>
+        <div>
+            <form>
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                </div>
+
+                <div>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                </div>
+
+                <div>
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                </div>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <div>
+                    <label for="numero">Numero de contacto:</label>
+                    <input type="tel" id="numero" name="numero" placeholder="Numero" minlength="10" maxlength="10" pattern="[0-9]{10}" required>
+                </div>
+
+                <button type="button"
+                    onclick="mostrarRegistro()">
+                    Enviar</button>
+            </form>
+            <h2 id="registro"></h2>
+        </div>
+        <a href="../contactanos/contactos.html" class="botonR">Nuestros contactos</a>
+        <br>
+    </main>
+    <footer>
+        <p>Proyecto Kawasaki | Hecho por Juan Rivera, Juan Cardozo, Andrey Castro</p>
+    </footer>
+</body>
+</html>   

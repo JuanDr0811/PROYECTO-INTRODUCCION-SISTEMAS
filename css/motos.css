@@ -1,0 +1,272 @@
+
+/* 
+    --verde-kawasaki: #67B32E;
+    --negro: black;
+    --gris: #1A1A1A;
+    --blanco: white;
+*/
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#titulo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#titulo img {
+  width: 45px;
+  height: 40px;
+}
+
+header h1{
+    color: #ffffff;
+}
+
+
+
+
+
+main {
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+main h2{
+    color: #67B32E;
+    font-size: 2rem;
+}
+main p {
+    font-size: 1.2rem;
+}
+
+
+
+ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+li a {
+    text-decoration: none;
+    background-color: #67B32E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+.boton {
+    background-color: #67B32E;
+}
+
+.boton:hover{
+    background-color: #c7ff9c;
+    color: black
+}
+.botonActivo {
+    background-color: #c7ff9c;
+    color: black
+}
+
+/* 
+max-width: 1000px;
+*/
+.contenedor {
+
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.subtitulo {
+    color: #cccccc;
+}
+
+
+.galeriaMotos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta-moto {
+    background-color: #1A1A1A;
+    border: 1px solid #67B32E;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vitrina-oficial {
+    width: 100%;
+    height: 180px;
+    background-color: black;
+    border: 1px solid #67B32E;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.foto-moto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.etiqueta {
+    background-color: black;
+    color: #67B32E;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 4px;
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+.tarjeta-moto h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 0.95rem;
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.datos-tecnicos {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #333333;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.numero-verde {
+    display: block;
+    color: #67B32E;
+    font-size: 1.4rem;
+}
+
+.datos-tecnicos span {
+    font-size: 0.85rem;
+    color: #bbbbbb;
+}
+
+
+
+
+
+.botonR{
+    text-decoration: none;
+    background-color: #67B32E;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.botonR:hover{
+    background-color: #c7ff9c;
+    color: black
+}
+
+
+
+
+
+
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid #1A1A1A;
+    font-size: 0.9rem;
+    color: #cccccc;
+    text-align: center;
+}
+
+
+
+
+
+
+.tabla1 {
+    overflow-x: auto; /* Permite desplazar la tabla en celulares sin romper la página */
+    margin: 30px auto;
+    max-width: 800px; /* Mantiene la tabla centrada y con buen tamaño */
+}
+
+.motostabla {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1A1A1A; /* Gris oscuro que ya usas en las tarjetas */
+    border-radius: 8px;
+    overflow: hidden; /* Necesario para que los bordes de la tabla sean redondeados */
+}
+
+.motostabla th {
+    background-color: #67B32E; /* Verde Kawasaki */
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.motostabla td {
+    padding: 15px;
+    border-bottom: 1px solid #333333; /* Línea divisoria sutil */
+    color: #DDDDDD;
+}
+
+/* Efecto al pasar el cursor sobre una fila */
+.motostabla tbody tr:hover {
+    background-color: #2a2a2a; 
+    cursor: default;
+}
+
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 20px;
+    }
+
+    #titulo{
+        justify-content: center;        
+    }
+    
+    #menu {
+        display: flex;
+        justify-content: center;
+    }
+    .galeriaMotos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contacto{
+        display: none;
+    }  
+
+}
+
+        

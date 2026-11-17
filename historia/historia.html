@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawasaki - Historia</title>
+    <link rel="stylesheet" href="../css/historia.css"/>
+    <link rel="icon" type="image/x-icon" href="../fotos/logos/favicon.ico" />
+    <script src="../js/curiosidad.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <img src="../fotos/logos/logo.png" alt="logo">
+            <h1>Kawasaki</h1>
+        </div>
+        
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html" class="boton">Inicio</a></li>
+                <li><a href="../motos/motos.html" class="boton">Motos</a></li>
+                <li><a href="../historia/historia.html" class="botonActivo">Historia</a></li>
+                <li id="contacto"><a href="../contacto/contactanos.html" class="boton">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <hr>
+
+    <main>
+        <section class="inicioA">
+            <div>
+                 <img src="../fotos/storyK.jpg" alt="Inicios de Kawasaki">
+            </div>
+            <h2>Los Orígenes de la Marca</h2>
+            
+            <p>Todo comenzó en 1896 cuando Shozo Kawasaki fundó un astillero. Mucho antes de las motocicletas, la empresa construía barcos, trenes y aviones, forjando un legado de ingeniería de alta tecnología.</p>
+            
+        </section>
+        <hr>
+        <section>
+            <h2>Evolución hacia la Velocidad</h2>
+            <p>Fue en la década de 1960 cuando Kawasaki aplicó sus conocimientos aeroespaciales para crear motores potentes y fabricar sus primeras motocicletas, cambiando la industria para siempre.</p>
+        </section>
+        
+        <section class="datos">
+            <div>
+                <h3>1962</h3>
+                <p>Nace su primera moto (B8 125cc)</p>
+            </div>
+            <div>
+                <h3>1968</h3>
+                <p>Adopción del color Verde Lima</p>
+            </div>
+            <div>
+                <h3>1984</h3>
+                <p>Nace la icónica familia Ninja</p>
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2>El mito del "Verde Kawasaki"</h2>
+            <p>En 1968, para destacar en la pista de Daytona y desafiar las supersticiones que decían que el verde daba mala suerte en las carreras, Kawasaki pintó sus motos de un color estridente. Hoy, ese "Lime Green" es el sello inconfundible de la marca.</p>
+        </section>
+        <hr>
+        <section>
+            <button onclick="mostrarCuriosidad()" class="botonsecret">Descubrir</button>
+            <p id="curiosidad" class="oculto">
+            Además de motos, Kawasaki Heavy Industries fabrica trenes bala (Shinkansen),
+            helicópteros, barcos e incluso robots industriales y piezas para los aviones Boeing.
+            </p>
+        </section>
+
+        <br>
+
+        <section>
+
+
+            <h2>Ingeniería Japonesa</h2>
+
+
+            <section id="sectionmotos">
+                <h3>Ninja ZX-6R</h3>
+                
+                <div class="imagen2">
+                    <img id="imagenMoto" src="../fotos/coloresN/vedeN.png" alt="Kawasaki" style="max-width: 500px; border-radius: 8px;">
+                </div>
+
+
+                <div>
+                    <button class="botonL" id="L1" onclick="cambiarImagen('verde')">Verde</button>
+        
+                    <button class="botonL" id="L2" onclick="cambiarImagen('negra')">Negro</button>
+
+                    <button class="botonL" id="L3" onclick="cambiarImagen('Blanco')">Blanco</button>
+                </div>
+                    <p>La Ninja ZX-6R es una de las motos deportivas de peso medio más icónicas y exitosas de 
+                    Kawasaki desde su debut en 1995. Destaca históricamente por romper las reglas de su categoría
+                    con su famoso motor de 636 cc, 
+                    ofreciendo mayor potencia y par motor en calle que sus rivales tradicionales de 600 cc.</p>
+            </section>
+
+
+
+            <section id="sectionmotos">
+                <h3>Kawasaki Z900</h3>
+    
+                <div class="imagen2">
+                    <img id="imagenMoto2" src="../fotos/coloresN/z900plata.png" alt="Kawasaki" style="max-width: 500px; border-radius: 8px;">
+                </div>
+
+
+                <div>
+                    <button class="botonL" id="L1B" onclick="cambiarImagenA('gris')">Gris</button>
+        
+                    <button class="botonL" id="L2B" onclick="cambiarImagenA('verde')">Verde</button>
+
+                    <button class="botonL" id="L3B" onclick="cambiarImagenA('rojo')">Rojo</button>
+                </div>
+                    <p>La Z900 se ha convertido en un ícono moderno desde su lanzamiento 
+                    en 2017 como la máxima representante de la filosofía de diseño Sugomi 
+                    de Kawasaki. Aunque es más joven que la ZX-6R, es la heredera espiritual
+                    del legendario linaje "Z" (iniciado por la mítica Z1 de 1972) y es una
+                    de las motos naked de cuatro cilindros más vendidas e influyentes 
+                    en el mundo por su equilibrio entre potencia bruta, agilidad y precio.</p>
+            </section>
+
+
+
+            <section id="sectionmotos">
+                <h3>Kawasaki W800</h3>
+    
+                <div class="imagen2">
+                    <img id="imagenMoto3" src="../fotos/coloresN/w800azul.png" alt="Kawasaki" style="max-width: 500px; border-radius: 8px;">
+                </div>
+
+
+                <div>
+                    <button class="botonL" id="L1C" onclick="cambiarImagenB('Azul')">Azul</button>
+        
+                    <button class="botonL" id="L2C" onclick="cambiarImagenB('Blanco')">Blanco</button>
+
+                    <button class="botonL" id="L3C" onclick="cambiarImagenB('Negro')">Negro</button>
+                </div>
+                    <p>La W800 representa el ícono de la nostalgia y la herencia clásica pura de Kawasaki. Es el
+                    homenaje moderno directo a la legendaria W1 de 1966, la motocicleta que impulsó el crecimiento 
+                    global de la marca y sentó las bases de sus modelos de gran cilindrada.</p>
+            </section>
+        </section>
+        
+
+        <a href="../index.html" class="botonR">Inicio</a>
+    </main>
+
+    <footer>
+        <p>Proyecto Kawasaki | Hecho por Juan Rivera, Juan Cardozo, Andrey Castro</p>
+        <br>
+        <a href="../contacto/contactanos.html" class="botonR">Contactanos</a>
+        <br>
+        <br>
+    </footer>
+</body>
+</html>
